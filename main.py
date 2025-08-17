@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 
 # Načítanie tokenu zo systémovej premennej
-TOKEN = os.getenv("MTQwNjUzOTYxODk3OTE1MTkxMw.GhdwzD.oDH_3nZ046dNPxEMp9GIaStvO2CcljiDiHQyug")
+TOKEN = os.getenv("MTQwNjUzOTYxODk3OTE1MTkxMw.GAot4X.IlPCskTGe4PKitIrjqwKzemKGO0O88MCEcagNw")
 
 # Intents musia obsahovať message_content
 intents = discord.Intents.default()
@@ -57,4 +57,4 @@ async def removebalance(ctx, member: discord.Member, amount: int):
     await ctx.send(f"Odobral som {amount} Gold {member.mention}. Nový zostatok: {balances[user_id]} Gold.")
 
 # Spustenie bota
-bot.run("MTQwNjUzOTYxODk3OTE1MTkxMw.GhdwzD.oDH_3nZ046dNPxEMp9GIaStvO2CcljiDiHQyug")
+bot.run("MTQwNjUzOTYxODk3OTE1MTkxMw.GAot4X.IlPCskTGe4PKitIrjqwKzemKGO0O88MCEcagNw")
