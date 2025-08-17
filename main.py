@@ -26,4 +26,4 @@ async def setbalance(ctx, member: discord.Member, amount: int):
     balances[str(member.id)] = amount
     await ctx.send(f"Nastavil som {member.mention} zostatok na {amount}Gold.")
 
-bot.run"MTQwNjUzOTYxODk3OTE1MTkxMw.GjTD84.fXFfI0qhO-n4oLjYDFqYdzhLKrs6N_igEhaGR8"
+bot.run("MTQwNjUzOTYxODk3OTE1MTkxMw.GjTD84.fXFfI0qhO-n4oLjYDFqYdzhLKrs6N_igEhaGR8")
